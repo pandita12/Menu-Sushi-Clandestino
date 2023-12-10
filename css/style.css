@@ -13,13 +13,13 @@
     opacity: 1;
 }
 
-.back-to-top {
+/***.back-to-top {
     position: fixed;
     display: none;
     right: 45px;
     bottom: 45px;
     z-index: 99;
-}
+}***/
 
 img.animated.pulse {
     animation-duration: 5s;
@@ -32,7 +32,8 @@ img.animated.pulse {
 }
 
 .btn.btn-primary {
-    color: var(--bs-white);
+    background-color: #fff;
+    border: #EC0F0F;
 }
 
 .btn-square {
@@ -424,4 +425,7 @@ img.animated.pulse {
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+.container-fluid{
+    background-color: #EC0F0F;
 }

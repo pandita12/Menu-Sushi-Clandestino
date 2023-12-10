@@ -15,17 +15,18 @@
     // Initiate the wowjs
     new WOW().init();
 
-
+    /* Funcion de bajar el menu con el movimiento
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
-            $('.sticky-top').addClass('bg-primary shadow-sm').css('top', '0px');
+            $('.sticky-top').addClass('bg-gray shadow-sm').css('top', '0px');
         } else {
-            $('.sticky-top').removeClass('bg-primary shadow-sm').css('top', '-150px');
+            $('.sticky-top').removeClass('bg-gray shadow-sm').css('top', '-150px');
         }
     });
+    */
     
-    
+    /* Boton Flotante para navegación 
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -38,8 +39,8 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
-
-
+    */
+    
     // Countdown Timer
     function countDownTimer() {	
         var endTime = new Date("31 December 2023 10:00:00 GMT+00:00");
